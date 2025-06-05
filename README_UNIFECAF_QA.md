@@ -29,9 +29,7 @@ Este site está publicado no GitHub Pages e pode ser acessado por qualquer naveg
 
 ## 🤖 Público-alvo
 
-- Estudantes de Engenharia de Software
-- Cursos Técnicos e Tecnólogos em QA e Testes
-- Aulas práticas de automação, DevOps e testes com IA
+- Alunos da UNIFECAF
 
 ---
 
