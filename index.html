@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>UniFECAF IA - Portal de Inscrição</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            background-color: #001F54;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 30px;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #004080;
+            color: white;
+            border: none;
+        }
+        footer {
+            background-color: #001F54;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portal UniFECAF IA</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Cursos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Inscreva-se</a>
+    </nav>
+</header>
+
+<main>
+    <h2 style="text-align:center;">Formulário de Inscrição</h2>
+    <form action="#" method="post">
+        <label>Nome Completo</label>
+        <input type="text" name="nome">
+
+        <label>E-mail</label>
+        <input type="text" name="email">
+
+        <label>Curso de Interesse</label>
+        <select name="curso">
+            <option value="">Selecione...</option>
+            <option value="ia">Inteligência Artificial</option>
+            <option value="ds">Data Science</option>
+        </select>
+
+        <label>Mensagem (opcional)</label>
+        <input type="text" name="mensagem">
+
+        <button>Enviar</button>
+    </form>
+
+    <div style="text-align:center;margin-top:40px;">
+        <img src="foto-grande.jpg" style="max-width:100%;">
+        <p>
+            Siga-nos nas redes:
+            <a href="https://facebook.com/unifecaf" target="_blank">Facebook</a> |
+            <a href="https://instagram.com/naoexiste" target="_blank">Instagram</a>
+        </p>
+    </div>
+</main>
+
+<footer>
+    © 2025 UniFECAF IA - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
